@@ -1,0 +1,26 @@
+// WidgetBlueprintGeneratedClass WBP_Invetory.WBP_Invetory_C
+// Size: 0x308 (Inherited: 0x260)
+struct UWBP_Invetory_C : UUserWidget {
+	struct UImage* Image_117; // 0x260(0x08)
+	struct UImage* Image_237; // 0x268(0x08)
+	struct UTextBlock* TextBlock_66; // 0x270(0x08)
+	struct UUniformGridPanel* UniformGridPanel_157; // 0x278(0x08)
+	struct UWBP_Line2px_C* WBP_Line2px; // 0x280(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall; // 0x288(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_2; // 0x290(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_3; // 0x298(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_4; // 0x2a0(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_5; // 0x2a8(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_6; // 0x2b0(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_7; // 0x2b8(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_8; // 0x2c0(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_9; // 0x2c8(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_10; // 0x2d0(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_11; // 0x2d8(0x08)
+	struct UWBP_SlotSmall_C* WBP_SlotSmall_12; // 0x2e0(0x08)
+	struct UWBP_TabCategory_C* WBP_TabCategory; // 0x2e8(0x08)
+	struct UWBP_TabCategory_C* WBP_TabCategory_2; // 0x2f0(0x08)
+	struct UWBP_TabCategory_C* WBP_TabCategory_3; // 0x2f8(0x08)
+	struct UWBP_TabCategory_C* WBP_TabCategory_4; // 0x300(0x08)
+};
+

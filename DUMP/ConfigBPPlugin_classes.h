@@ -1,0 +1,45 @@
+// Class ConfigBPPlugin.ConfigBPPluginBPLibrary
+// Size: 0x28 (Inherited: 0x28)
+struct UConfigBPPluginBPLibrary : UBlueprintFunctionLibrary {
+
+	void SetVector3Parameter(struct UConfigFile* File, struct FVector Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetVector3Parameter // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf7a20
+	void SetVector2Parameter(struct UConfigFile* File, struct FVector2D Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetVector2Parameter // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf77f0
+	void SetTransformParameter(struct UConfigFile* File, struct FTransform Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetTransformParameter // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf7560
+	void SetTextParameter(struct UConfigFile* File, struct FText Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetTextParameter // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf72c0
+	void SetStringParameter(struct UConfigFile* File, struct FString Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetStringParameter // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf7030
+	void SetStringArrayParameter(struct UConfigFile* File, struct TArray<struct FString> Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetStringArrayParameter // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf6d10
+	void SetRotatorParameter(struct UConfigFile* File, struct FRotator Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetRotatorParameter // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf6ac0
+	void SetIntParameter(struct UConfigFile* File, int32_t Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetIntParameter // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf6880
+	void SetFloatParameter(struct UConfigFile* File, float Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetFloatParameter // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf6640
+	void SetDoubleParameter(struct UConfigFile* File, float Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetDoubleParameter // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf6400
+	void SetColorParameter(struct UConfigFile* File, struct FColor Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetColorParameter // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf61d0
+	void SetBoolParameter(struct UConfigFile* File, bool Value, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.SetBoolParameter // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf5f90
+	void ReloadConfig(struct UConfigFile* File); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.ReloadConfig // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xcf5f10
+	struct UConfigFile* OpenFile(struct FString Path, bool isAbsolute, enum class EFileOpenState permissionLevel, bool bDidFileExist, bool bSuccess); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.OpenFile // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf5d00
+	struct TArray<struct FString> GetSections(struct UConfigFile* File, bool bSuccess); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetSections // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf5be0
+	struct TArray<struct FString> GetSectionKeys(struct UConfigFile* File, struct FString Section, bool bSuccess); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetSectionKeys // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf5a30
+	struct FString GetScalabilityIniLocation(bool absolute); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetScalabilityIniLocation // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xcf5960
+	struct FVector GetParameterAsVector3(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsVector3 // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf5750
+	struct FVector2D GetParameterAsVector2(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsVector2 // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf5550
+	struct FTransform GetParameterAsTransform(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsTransform // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf5320
+	struct FText GetParameterAsText(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsText // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf50c0
+	struct TArray<struct FString> GetParameterAsStringArray(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsStringArray // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf4e80
+	struct FString GetParameterAsString(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsString // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf4c40
+	struct FRotator GetParameterAsRotator(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsRotator // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf4a30
+	int32_t GetParameterAsInt(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsInt // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf4840
+	float GetParameterAsFloat(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsFloat // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf4640
+	float GetParameterAsDouble(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsDouble // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf4440
+	struct FColor GetParameterAsColor(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsColor // (Final|Native|Static|Public|HasOutParms|HasDefaults|BlueprintCallable) // @ game+0xcf4240
+	bool GetParameterAsBool(struct UConfigFile* File, struct FString Section, struct FString Key, bool Success); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetParameterAsBool // (Final|Native|Static|Public|HasOutParms|BlueprintCallable) // @ game+0xcf4050
+	struct FString GetInputIniLocation(bool absolute); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetInputIniLocation // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xcf3f80
+	struct FString GetGameUserSettingsIniLocation(bool absolute); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetGameUserSettingsIniLocation // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xcf3eb0
+	struct FString GetGameIniLocation(bool absolute); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetGameIniLocation // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xcf3de0
+	struct FString GetEngineIniLocation(bool absolute); // Function ConfigBPPlugin.ConfigBPPluginBPLibrary.GetEngineIniLocation // (Final|Native|Static|Public|BlueprintCallable) // @ game+0xcf3d10
+};
+
+// Class ConfigBPPlugin.ConfigFile
+// Size: 0x40 (Inherited: 0x28)
+struct UConfigFile : UObject {
+	char pad_28[0x18]; // 0x28(0x18)
+};
+

@@ -1,0 +1,24 @@
+// UserDefinedStruct S_BigLootNotificationInfo.S_BigLootNotificationInfo
+// Size: 0xc0 (Inherited: 0x00)
+struct FS_BigLootNotificationInfo {
+	float DisplayTime_26_BE1901F94266BE7360887CAE26485220; // 0x00(0x04)
+	bool RemoveManually_27_3C9EFAD240E41EAA5F4329974CC360BA; // 0x04(0x01)
+	char pad_5[0x3]; // 0x05(0x03)
+	struct UObject* Icon_28_E18F0E0A42B8957F55617586AFE8F756; // 0x08(0x08)
+	struct FText Headline_29_C8CCA288499FEE3D59E8B9B5641234C5; // 0x10(0x18)
+	struct FText Content_31_3588B455476C29607A7EFA94256E14EE; // 0x28(0x18)
+	struct FLinearColor IconFrameColor_32_C0B3F2A54F5CD051F3A42DA3F14D1EC4; // 0x40(0x10)
+	struct FLinearColor HeadlineFrameColor_33_CEB7F9F4418F7137A676F4958F31222D; // 0x50(0x10)
+	bool Particles_35_99D9BF2F4BAAA85DE65D2885DE8C7009; // 0x60(0x01)
+	char pad_61[0x3]; // 0x61(0x03)
+	struct FLinearColor ParticlesColor_34_00E1836544A508115D2545B0C4A75B2E; // 0x64(0x10)
+	bool ToolTipLeft_37_78D2FF194BD680DCADC9469316FD17A0; // 0x74(0x01)
+	char pad_75[0x3]; // 0x75(0x03)
+	struct FText ToolTipLeftText_38_14A58EA8452A5A139C9908A464D81D02; // 0x78(0x18)
+	struct UObject* ToolTipLeftIcon_39_04887EA94FED9752CC2280852BAF830F; // 0x90(0x08)
+	bool ToolTipRight_40_BA9258244AC5173C9677A88F2B6D9F25; // 0x98(0x01)
+	char pad_99[0x7]; // 0x99(0x07)
+	struct FText ToolTipRightText_41_1248788749E187C71D6F408C2DDACE33; // 0xa0(0x18)
+	struct UObject* ToolTipRightIcon_42_652E09EB4835A9E433DED8A6E7286A4E; // 0xb8(0x08)
+};
+
